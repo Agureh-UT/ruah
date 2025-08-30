@@ -26,12 +26,4 @@
 
   define('ACCESS_RESTRICTED', 'Restricted'); //controller name for the restricted redirect
 
-  ################# Gateway Settings #######################################
-  // define('GATEWAY','braintree'); // could use stripe, braintree
-  // define('STRIPE_PUBLIC','pk_test_dVAFmhr5PcusMd6SMLP7GJcj00yJpboZEF');
-  // define('STRIPE_PRIVATE','sk_test_nfkFVOqp4Dy73eAo5CISnc8O00Gt8xmHzY');
 
-  // define('BRAINTREE_MERCHANT_ID','yg4k5nhmkb4b76nj');
-  // define('BRAINTREE_ENV','sandbox');
-  // define('BRAINTREE_PUBLIC','bnm335p5nw84rxnq');
-  // define('BRAINTREE_PRIVATE','92b415b9110450cffd7bb6598233a025');
