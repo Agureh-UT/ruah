@@ -1,0 +1,48 @@
+{
+  "📊 ADMINDASHBOARD": "settings/index",
+  "⚙️ eADMIN": {
+    "Settings": "//settings/index",
+    "Countries": "countries/index",
+    "Branches": "adminbranches/index",
+    "Clients/Donors": "adminclients/index",
+    "Client Categories": "clientcategories/index",
+    "Fundingagencies": "adminfundingagencies/index",
+    "Clusters": "adminclusters/index",
+    "Document Types": "doctypes/index"
+  },
+  "💰 eFINANCE": {
+    "Vouchers": "vouchers/index",
+    "Transaction Types": "admintrxtypes/index",
+    "Currencies": "admincurrencies/index",
+    "Elements Of Accounts": "adminelements/index",
+    "Acc.Subelements": "subelements/index",
+    "Chart of Account": "glaccounts/index",
+    "Projects": "projects/index",
+    "Costcentres": "costcentres/index",
+    "Budgetlines": "budgetlines/index"
+  },
+  "🛒 ePROCUREMENT": {
+    "Requisitions": "requisitions/index",
+    "PurchaseOrders": "purchaseorders/index",
+    "Receivenotes": "receivenotes/index",
+    "Billable Items": "inventoryitems/index",
+    "Billable Items Categories": "itemcategories/index",
+    "Units Of Measure(UOMs)": "siunits/index",
+    "Suppliers": "adminsuppliers/index"
+  },
+  "🧑🏻 eHR": {
+    "Manage Userlevels": "userlevels/index",
+    "Manage Users": "useradmin/index",
+    "Manage Employees": "employees/index",
+    "Manage Employee Types": "emptypes/index",
+    "Departments": "admindepartments/index",
+    "Payrolls": "payrolls/index",
+    "MasterPayrolls": "payrolls/masterpayrolls",
+    "ProjectEmployees": "projectemployees/index",
+    "Attach Staff To Projects": "projectemployees/updator",
+    "Tax Jurisdiction": "taxauthorities/index",
+    "Tax Bands": "taxbands/index",
+    "Payroll Items": "payrollitems/index"
+  },
+  "🏠 HOME": "home/index"
+}

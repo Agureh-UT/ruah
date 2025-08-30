@@ -1,0 +1,98 @@
+{
+  "Guest" : {
+    "denied" : {},
+    "Auth" : ["index"],
+    "Restricted" : ["*"]
+  },
+  "LoggedIn" : {
+    "denied" : {
+      "Auth" : ["index","register"]
+    },
+    "Auth" : ["logout"],
+    "Receivenotes": ["*"],
+    "Requisitions": ["*"],
+    "Adminbranches": ["loadCountryCurrenciesByBranch"],
+    "Useradmin": ["passwordupdate"],
+    "Home": ["*"]
+  },
+  "SystemAdmin" : {
+    "denied" : {},
+    "Auth" : ["register"],
+    "Products": ["*"],
+    "Sales": ["*"],
+    "Purchases": ["*"],
+    "Cart": ["*"],
+    "Settings": ["*"],
+    "Countries": ["*"],
+    "Projects": ["*"],
+    "Costcentres": ["*"],
+    "Budgetlines": ["*"],
+    "Payrolls": ["*"],    
+    "Employeeprojectbgtlines": ["*"],
+    "Projectemployees": ["*"],
+    "Projectpayrolls": ["*"],
+    "Useradmin": ["*"],
+    "Employees": ["*"],
+    "Emptypes": ["*"],
+    "Doctypes": ["*"],
+    "Admindashboard": ["*"],
+    "Userlevels": ["*"],
+    "Adminproducts": ["*"],
+    "Adminbrands": ["*"],
+    "Inventoryitems": ["*"],
+    "Adminbranches": ["*"],
+    "Adminclusters": ["*"],
+    "Adminfundingagencies": ["*"],
+    "Admincurrencies": ["*"],
+    "Adminclients": ["*"],
+    "Admintrxtypes": ["*"],
+    "Admindepartments": ["*"],
+    "Adminpaytypes": ["*"],
+    "Adminposts": ["*"],
+    "Admincontents": ["*"],
+    "Adminpayments": ["*"],
+    "Adminsuppliers": ["*"],
+    "Adminelements": ["*"],
+    "Subelements": ["*"],
+    "Glaccounts": ["*"],
+    "Siunits": ["*"],
+    "Clientcategories": ["*"],
+    "Itemcategories": ["*"],
+    "Taxauthorities": ["*"],
+    "Taxbands": ["*"],
+    "Payrollitems": ["*"],
+    "Vouchers": ["*"],
+    "Purchaseorders": ["*"],
+    "Menus": ["*"],
+    "Tests": ["*"]
+  },
+  "FinanceUser": {
+    "denied": {
+      "Projects": ["deletor","delete"]
+    },
+    "Vouchers": ["*"],
+    "Products": ["*"],
+    "Sales": ["*"],
+    "Projects": ["*"],
+    "Purchases": ["*"]
+  }, 
+  "ProgramsUser": {
+    "denied": {}
+  }, 
+  "ProcurementUser": {
+    "denied": {},
+    "Purchaseorders": ["*"]
+  },
+  "HRUser": {
+    "denied": {},
+    "Payrolls": ["*"],
+    "Employeeprojectbgtlines": ["*"],
+    "Projectemployees": ["*"],
+    "Projectpayrolls": ["*"],
+    "Useradmin": ["*"],
+    "Emptypes": ["*"],
+    "Employees": ["*"],
+    "Taxauthorities": ["*"],
+    "Taxbands": ["*"]
+  }
+}

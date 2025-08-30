@@ -1,0 +1,8 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "tecnickcom/tcpdf": "^6.10",
+        "tinymce/tinymce": "^7.9",
+        "phpoffice/phpspreadsheet": "^4.4"
+    }
+}

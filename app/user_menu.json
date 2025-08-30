@@ -1,0 +1,7 @@
+{
+  "Login": "auth/index",
+  "%USERNAME%" : {
+    "Logout" : "auth/logout",
+    "Update Password" : "useradmin/passwordupdate"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "🏠 HOME": "home/index",
+  "⚙️ eSYSTEM": {
+    "Clients": "adminclients/index",
+    "Projects": "projects/index",
+    "Inventory Items": "inventoryitems/index",
+    "Costcentres": "costcentres/index",
+    "Budgetlines": "budgetlines/index",
+    "//Template": "this is commented out change to tests/template"
+  },
+  "💰 eFINANCE": {
+    "Vouchers": "vouchers/index"
+  },
+  "🛒 ePROCUREMENT": {
+    "Requisitions": "requisitions/index",
+    "PurchaseOrders": "purchaseorders/index",
+    "Receivenotes": "receivenotes/index"
+  },
+  "🧑🏻 eHR": {
+    "Manage Userlevels": "userlevels/index",
+    "Manage Users": "useradmin/index",
+    "Manage Employees": "employees/index",
+    "Manage Employee Types": "emptypes/index",
+    "Departments": "admindepartments/index",
+    "Payrolls": "payrolls/index",
+    "MasterPayrolls": "payrolls/masterpayrolls",
+    "Project Employees": "projectemployees/index",
+    "Attach Staff To Projects": "projectemployees/updator",
+    "Tax Jurisdiction": "//taxauthorities/index",
+    "Tax Bands": "//taxbands/index",
+    "Payroll Items": "//payrollitems/index"
+  },
+  "📊 ADMINDASHBOARD": "settings/index"
+}
