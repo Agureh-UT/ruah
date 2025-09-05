@@ -48,6 +48,7 @@ class DB {
     $joins = "";
     $conditionString = '';
     $bind = [];
+    $group = '';
     $order = '';
     $limit = '';
     $offset = '';
@@ -97,6 +98,11 @@ class DB {
       $bind = $params['bind'];
     }
 
+     // group(added by me)
+    if (array_key_exists('group', $params)) {
+            $group = ' GROUP BY ' . $params['group'];
+    }
+
     // order
     if(array_key_exists('order', $params)) {
       $order = ' ORDER BY ' . $params['order'];
@@ -112,7 +118,7 @@ class DB {
       $offset = ' OFFSET ' . $params['offset'];
     }
     $sql = ($count)? "SELECT COUNT(*) as count " : "SELECT {$columns} ";
-    $sql .= "FROM {$table}{$joins}{$conditionString}{$order}{$limit}{$offset}";
+    $sql .= "FROM {$table}{$joins}{$conditionString}{$group}{$order}{$limit}{$offset}";
     if($this->query($sql, $bind,$class)) {
       if(!count($this->_result)) return false;
       return true;
